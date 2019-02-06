@@ -1,0 +1,108 @@
+body {
+    background:url(../images/879024.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.choose{
+    background-color: #272D3D;
+    border: 5px solid #50A81B;
+    border-radius: 27px;
+    color: #DCEEFF;
+    height: 220px;
+}
+
+.charPicked{
+    background-color: #272D3D;
+    border: 5px solid #50A81B;
+    border-radius: 27px;
+    color: #DCEEFF;
+    height: 220px;
+}
+
+.enemyPicked{
+    background-color: #272D3D;
+    border: 5px solid #50A81B;
+    border-radius: 27px;
+    color: #DCEEFF;
+    height: 220px;
+}
+
+.enemyLeft{
+    background-color: #272D3D;
+    border: 5px solid #50A81B;
+    border-radius: 27px;
+    color: #DCEEFF;
+    height: 220px;
+}
+
+.img{
+    height: 117px;
+    width: 87px;
+    margin: 2px;
+    background-color: #272D3D;
+}
+
+.choose h1 {
+    padding-top: 10px;
+}
+
+.charButton{
+    background-color: #272D3D;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.gameTitle{
+    font-family: 'Notable', sans-serif;
+    font-size: 80px;
+    color: #97E62D;
+    text-shadow: 5px 5px #272D3D;
+
+}
+
+.choose button:hover{
+    border: 2px solid #D0021B;
+    border-radius: 5px;
+
+}
+
+.enemyLeft button:hover{
+    border: 2px solid #D0021B;
+    border-radius: 5px;
+
+}
+
+button:after{
+    margin: 0px;
+}
+
+.attackPoints{
+    color: #97E62D;
+}
+
+.enemyPoints{
+    color: #D0021B;
+}
+
+.lifeLeft{
+    color: #D0021B;
+}
+
+.attackbutton{
+    background-color: #97E62D;
+    border: 2px solid #25770A;
+    border-radius: 27px;
+    width: 50%;
+    height: 60px;
+}
+
+.attackBlock button:hover {
+    border: 2px solid #D0021B;
+    border-radius: 27px;
+}
+
+
