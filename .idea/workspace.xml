@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb8eeb1-42c1-4cff-a8f3-f787cfbed5f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/overrides.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/javascript/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="74" column="54" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="54" />
+            <state relative-caret-position="521">
+              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -29,10 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="27" />
+            <state relative-caret-position="548">
+              <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
               <folding>
-                <marker date="1549509888434" expanded="true" signature="148:166" ph="..." />
+                <marker date="1549511609588" expanded="true" signature="148:166" ph="..." />
               </folding>
             </state>
           </provider>
@@ -149,12 +148,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549337985268</updated>
       <workItem from="1549337986542" duration="1896000" />
-      <workItem from="1549340667117" duration="15450000" />
+      <workItem from="1549340667117" duration="17008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17346000" />
+    <option name="totallyTimeSpent" value="18904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="57" width="1680" height="955" extended-state="0" />
@@ -196,17 +195,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="54" />
+        <state relative-caret-position="521">
+          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascript/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="27" />
+        <state relative-caret-position="548">
+          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
           <folding>
-            <marker date="1549509888434" expanded="true" signature="148:166" ph="..." />
+            <marker date="1549511609588" expanded="true" signature="148:166" ph="..." />
           </folding>
         </state>
       </provider>

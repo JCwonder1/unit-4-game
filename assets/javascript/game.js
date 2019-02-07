@@ -14,6 +14,9 @@ var $charPicked= $(".charPicked");
 //Declare Enemy Currently Fighting Block
 var $enemyPicked = $(".enemyPicked");
 
+//Declare Enemy Left Block
+var $enemyLeft = $(".enemyLeft");
+
 
 //Define Character Object
 // Emmet object
@@ -68,14 +71,20 @@ $(".charButton").on("click", function(event){
 
     //Building Enemys Left to Fight Block
     for(i=0; i<charObjectsAsArray.length; i++){
+        console.log(charObjectsAsArray[i]);
         if($charSelected !== charObjectsAsArray[i]) {
-            enemyLeft.push(charObjectsAsArray[i])
+            enemyLeft.push(charObjectsAsArray[i]);
+            let name = charObjectsAsArray[i];
+            $(".enemyLeft").append("<button class='charbutton' value='" + charObjectsAsArray[i] + "'><img src='" + window[name].image + "' class='img'></button>");
 
         }
 
     }
 
-    console.log(enemyLeft);
+
+    //Once Enemys Left block is updated, show block
+    $enemyLeft.show();
+
 
     //Once block has updated info, show block
     $charPicked.show();
