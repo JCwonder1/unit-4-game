@@ -66,6 +66,7 @@ $(".charButton").on("click", function(event){
     $charSelected = event.currentTarget.value;
 
     //Building Users Character Block
+    $(".charName").text(window[$charSelected].name);
     $(".float-left").attr("src",window[$charSelected].image);
     $(".life").text(window[$charSelected].life);
 
