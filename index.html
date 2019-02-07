@@ -24,9 +24,18 @@
 
             <div class="row mt-5">
                 <div class="col-3">
-
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                 </div>
-                <div class="col-6 choose text-center">
+                <div class="col-6 choosePlayer hide text-center">
                     <h1>Choose your character</h1>
                     <button class="charButton" value="emmet"><img src="assets/images/Emmet.png" class="img"></button>
                     <button class="charButton" value="lordBusiness"><img src="assets/images/Lordbusiness.png" class="img"></button>
@@ -40,9 +49,9 @@
 
             <div class="row">
                 <div class="col-3">
-
+                <br>
                 </div>
-                <div class="col-6 gameTitle text-center">
+                <div class="col-6 gameTitle hide text-center">
                     <h1>Lego Movie RPS</h1>
                 </div>
                 <div class="col-3">
@@ -51,19 +60,19 @@
             </div>
 
             <div class="row">
-                <div class="col-3 charPicked">
+                <div class="col-3 hide charPicked">
                     <h4 class="text-center">You Choose:</h4>
-                    <img src="assets/images/Emmet.png" class="img float-left">
-                    <h4 class="lifeLeft test-right">Life Left:</h4>
+                    <img src="" class="img float-left">
+                    <h4 class="lifeLeft test-right">Life Left:<span class="life"></span></h4>
 
                 </div>
-                <div class="col-6 text-center align-middle pt-5">
+                <div class="col-6 text-center hide align-middle pt-5">
                     <h4 class="attackPoints">You attacked and reduced Lord Business life by</h4>
                     <h4 class="enemyPoints">Lord Business attacked and reduced your life by</h4>
                 </div>
-                <div class="col-3 enemyPicked">
+                <div class="col-3 hide enemyPicked">
                     <h4 class="text-center">Enemy fighting:</h4>
-                    <img src="assets/images/Emmet.png" class="img float-right">
+                    <img src="" class="img float-right">
                     <h4 class="lifeLeft test-right">Life Left:</h4>
                 </div>
             </div>
@@ -71,7 +80,7 @@
                 <div class="col-3">
 
                 </div>
-                <div class="col-6 text-center attackBlock">
+                <div class="col-6 text-center hide attackBlock">
                     <button class="attackbutton">Attack</button>
                 </div>
                 <div class="col-3">
@@ -82,17 +91,17 @@
             <div class="row mt-5">
                 <div class="col-3">
 
-            </div>
-            <div class="col-6 enemyLeft text-center">
-                <h1>Enemy's Left</h1>
-                <button class="charbutton" value="emmet"><img src="assets/images/emmet.png" class="img"></button>
-                <button class="charbutton" value="lordbusiness"><img src="assets/images/lordbusiness.png" class="img"></button>
-                <button class="charbutton" value="badcop"><img src="assets/images/badcop.png" class="img"></button>
-                <button class="charbutton" value="wildlucy"><img src="assets/images/wildlucy.png" alt="" class="img"></button>
-            </div>
-            <div class="col-3">
+                </div>
+                <div class="col-6 enemyLeft hide text-center">
+                    <h1 class="pt-2">Enemy's Left</h1>
+                    <button class="charbutton" value="emmet"><img src="assets/images/emmet.png" class="img"></button>
+                    <button class="charbutton" value="lordbusiness"><img src="assets/images/Lordbusiness.png" class="img"></button>
+                    <button class="charbutton" value="badcop"><img src="assets/images/badcop.png" class="img"></button>
+                    <button class="charbutton" value="wildlucy"><img src="assets/images/wildlucy.png" alt="" class="img"></button>
+                </div>
+                <div class="col-3">
 
-            </div>
+                </div>
             </div>
         </div>
 
@@ -109,5 +118,8 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <!--Game JS -->
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>

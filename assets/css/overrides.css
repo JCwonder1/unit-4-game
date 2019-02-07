@@ -7,12 +7,28 @@ body {
 
 }
 
-.choose{
+.hide {
+    display: none;
+}
+
+.charButton{
+    background-color: #272D3D;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.choosePlayer{
     background-color: #272D3D;
     border: 5px solid #50A81B;
     border-radius: 27px;
     color: #DCEEFF;
     height: 220px;
+}
+
+.choosePlayer button:hover{
+    border: 2px solid #D0021B;
+    border-radius: 5px;
+
 }
 
 .charPicked{
@@ -31,7 +47,7 @@ body {
     height: 220px;
 }
 
-.enemyLeft{
+.enemyLeft {
     background-color: #272D3D;
     border: 5px solid #50A81B;
     border-radius: 27px;
@@ -39,21 +55,21 @@ body {
     height: 220px;
 }
 
+.enemyLeft button:hover{
+    border: 2px solid #D0021B;
+    border-radius: 5px;
+
+}
+
 .img{
     height: 117px;
     width: 87px;
-    margin: 2px;
+    /*margin: 2px;*/
     background-color: #272D3D;
 }
 
-.choose h1 {
+.choosePlayer h1 {
     padding-top: 10px;
-}
-
-.charButton{
-    background-color: #272D3D;
-    margin-bottom: 5px;
-    border: none;
 }
 
 .gameTitle{
@@ -61,18 +77,6 @@ body {
     font-size: 80px;
     color: #97E62D;
     text-shadow: 5px 5px #272D3D;
-
-}
-
-.choose button:hover{
-    border: 2px solid #D0021B;
-    border-radius: 5px;
-
-}
-
-.enemyLeft button:hover{
-    border: 2px solid #D0021B;
-    border-radius: 5px;
 
 }
 
