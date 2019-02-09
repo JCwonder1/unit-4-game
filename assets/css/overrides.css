@@ -116,3 +116,66 @@ button:after{
 }
 
 
+@media (max-width: 993px) {
+    .img{
+        height: 78px;
+        width: 58px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+    .choosePlayer{
+        height: 150px;
+    }
+
+    .charPicked{
+        height: 150px;
+    }
+    .enemyPicked{
+        height: 150px;
+    }
+
+    .enemyLeft {
+        height: 150px;
+    }
+    .enemyPoints {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 776px) {
+    .img{
+        height: 47px;
+        width: 35px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+    .choosePlayer{
+        height: 150px;
+    }
+
+    .charPicked{
+        height: 125px;
+    }
+    .enemyPicked{
+        height: 125px;
+    }
+
+    .enemyLeft {
+        height: 150px;
+    }
+    .enemyPoints {
+        font-size: 13px;
+    }
+}
