@@ -7,6 +7,10 @@ body {
 
 }
 
+button:active{
+    padding: 0px;
+}
+
 .hide {
     display: none;
 }
@@ -56,16 +60,17 @@ body {
 }
 
 .enemyLeft button:hover{
-    border: 2px solid #D0021B;
-    border-radius: 5px;
+     border: 2px solid #D0021B;
+     border-radius: 5px;
 
-}
+ }
 
 .img{
     height: 117px;
     width: 87px;
     /*margin: 2px;*/
     background-color: #272D3D;
+    background-clip: border-box;
 }
 
 .choosePlayer h1 {
@@ -89,7 +94,8 @@ button:after{
 }
 
 .enemyPoints{
-    color: #D0021B;
+    color: #272D3D;
+    font-size: 20px;
 }
 
 .lifeLeft{
