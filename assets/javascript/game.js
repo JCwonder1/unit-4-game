@@ -89,7 +89,7 @@ $(".charButton").on("click", function(event){
         if($charSelected !== charObjectsAsArray[i]) {
             enemyLeft.push(charObjectsAsArray[i]);
             let name = charObjectsAsArray[i];
-            $(".enemyLeft").append("<button class='enemyButtonClicked "+ charObjectsAsArray[i] +"' value='" + charObjectsAsArray[i] + "'><img src='" + window[name].image + "' class='img' alt='image'></button>");
+            $(".enemyLeft").append("<button class='enemyButtonClicked buttonFix "+ charObjectsAsArray[i] +"' value='" + charObjectsAsArray[i] + "'><img src='" + window[name].image + "' class='img' alt='image'></button>");
             enemyDefeated = true;
         }
 

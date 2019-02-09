@@ -7,6 +7,12 @@ body {
 
 }
 
+.buttonFix{
+    padding: 0px;
+    border: 0;
+    margin: 0px 7px 0px 7px;
+}
+
 button:active{
     padding: 0px;
 }
@@ -148,6 +154,8 @@ button:after{
     }
 }
 
+
+/*TODO: Apply css rules once screen is less than 776*/
 @media (max-width: 776px) {
     .img{
         height: 47px;
@@ -162,7 +170,7 @@ button:after{
         font-size: 13px;
     }
     .choosePlayer{
-        height: 150px;
+        height: 125px;
     }
 
     .charPicked{
@@ -173,9 +181,93 @@ button:after{
     }
 
     .enemyLeft {
-        height: 150px;
+        height: 100px;
+
+
     }
     .enemyPoints {
         font-size: 13px;
+    }
+    .align-middle{
+
+    }
+    .lifeLeft{
+
+        padding: 10px;
+    }
+    .enemyNameFix{
+        font-size: 11px;
+    }
+    .float-right{
+        margin-left: 5px;
+    }
+    .attackbutton{
+        background-color: #97E62D;
+        border: 2px solid #25770A;
+        border-radius: 27px;
+        width: 50%;
+        height: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .img {
+        height: 31px;
+        width: 23px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 9px;
+    }
+
+    .choosePlayer {
+        height: 100px;
+    }
+
+    .charPicked {
+        height: 80px;
+    }
+
+    .enemyPicked {
+        height: 80px;
+    }
+
+    .enemyLeft {
+        height: 80px;
+
+
+    }
+
+    .enemyPoints {
+        font-size: 9px;
+    }
+
+    .align-middle {
+
+    }
+
+    .lifeLeft {
+
+        padding: 10px;
+    }
+
+    .enemyNameFix {
+        font-size: 8px;
+    }
+
+    .float-right {
+        margin-left: 5px;
+    }
+
+    .attackbutton {
+        background-color: #97E62D;
+        border: 2px solid #25770A;
+        border-radius: 27px;
+        width: 50%;
+        height: 30px;
     }
 }
