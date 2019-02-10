@@ -124,11 +124,9 @@ $(".charButton").on("click", function(event){
                     let y = enemyLeft[i];
 
                     $("." + y).remove();
-                    //If match pull value out of array to leave what enemys are left
+
                     enemyLeft.splice(i, 1);
-                    console.log()
-                    // let name = charObjectsAsArray[i];
-                    // $(".enemyLeft").append("<button class='enemyButtonClicked' value='" + charObjectsAsArray[i] + "'><img src='" + window[name].image + "' class='img' alt='image'></button>");
+
 
                     $(".attackPoints").empty();
                     $(".attackPoints").append("Please attack " + window[enemyButtonClicked].name);
@@ -159,7 +157,7 @@ $(".charButton").on("click", function(event){
 
             //Display attack and results
             $(".attackPoints").empty();
-            $(".attackPoints").append("You attacked and reduced "+ window[enemyButtonClicked].name + " life by " + window[$charSelected].attack);
+            $(".attackPoints").append("You attacked and reduced "+ window[enemyButtonClicked].name + "'s life by " + window[$charSelected].attack);
 
             $(".enemyPoints").empty();
             $(".enemyPoints").append(window[enemyButtonClicked].name + " attacked you and reduced your life by " + window[enemyButtonClicked].attack);
@@ -181,9 +179,10 @@ $(".charButton").on("click", function(event){
                 $(".enemyPoints").empty();
                 $(".attackPoints").empty();
                 if(enemyLeft.length == 0){
-                    $(".attackPoints").append("Congrats You won!!! You defeated all your enemies");
+                    $(".attackPoints").append("Congrats! You won!!!<br>You defeated all your enemies.");
                 }else {
-                    $(".attackPoints").append("Your defeated " + window[enemyButtonClicked].name + ". Please choose the next enemy");
+                    $(".attackPoints").append("You defeated " + window[enemyButtonClicked].name + "!<br> Please choose your next enemy.");
+
                 }
 
                 enemyDefeated = true;
@@ -192,7 +191,7 @@ $(".charButton").on("click", function(event){
             if(window[$charSelected].life <= 0){
                 $(".life").empty();
                 $(".life").text(0);
-                alert("You Lost!! Please start over")
+                alert("You Lost!! Please Play Again")
                 location.reload();
 
             }
